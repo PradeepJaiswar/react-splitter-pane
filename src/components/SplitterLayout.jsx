@@ -153,8 +153,6 @@ class SplitterLayout extends React.Component {
         left: splitterRect.left,
         top: splitterRect.top
       }, false);
-      console.log('handleResize');
-      console.log(secondaryPaneSize);
       this.setState({ secondaryPaneSize });
     }
   }
@@ -168,8 +166,6 @@ class SplitterLayout extends React.Component {
         top: e.clientY
       }, true);
       clearSelection();
-      console.log('handleMouseMove');
-      console.log(secondaryPaneSize);
       this.setState({ secondaryPaneSize });
     }
   }
