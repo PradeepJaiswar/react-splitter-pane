@@ -33,9 +33,9 @@ function getPosition(elm) {
   let width  = rect.width;
   let height = rect.height;
   //manual adjust for if there is top to secondary div
-  if (top) {
-    top = top - 50;
-  }
+  // if (top) {
+  //   top = top - 50;
+  // }
   return { left, top, right, bottom, x, y, width, height };
 }
 
